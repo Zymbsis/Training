@@ -1,3 +1,7 @@
+body {
+  background-color: #fff;
+}
+
 h1,
 h2,
 h3,
@@ -39,6 +43,6 @@ textarea {
 
 img {
   display: block;
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
