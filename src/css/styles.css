@@ -74,3 +74,7 @@ svg {
 button:hover > svg {
   stroke: #dc3353;
 }
+
+button:active > svg {
+  stroke: #292929;
+}
