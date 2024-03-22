@@ -16,10 +16,10 @@ const swiper1 = new Swiper(mySwiper1, {
   speed: 1800,
   loopedSlice: 1,
   parallax: true,
-  // effect: 'fade',
-  // fadeEffect: {
-  //   crossFade: true,
-  // },
+  effect: 'fade',
+  fadeEffect: {
+    crossFade: true,
+  },
   spaceBetween: 20,
 });
 
@@ -33,10 +33,10 @@ const swiper2 = new Swiper(mySwiper2, {
   initialSlide: 1,
   speed: 1800,
   loopedSlice: 1,
-  // effect: 'fade',
-  // fadeEffect: {
-  //   crossFade: true,
-  // },
+  effect: 'fade',
+  fadeEffect: {
+    crossFade: true,
+  },
   spaceBetween: 20,
 });
 swiper1.controller.control = swiper2;
