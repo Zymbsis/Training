@@ -211,7 +211,7 @@ svg {
     height: 560px;
     margin-right: 240px;
     opacity: 1;
-    transform: translateX(-50px);
+    transform: translateX(-90px);
   }
 
   .img-swiper .swiper-slide-next .img-wrapper {
