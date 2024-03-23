@@ -175,7 +175,7 @@ svg {
   }
 
   .text-swiper {
-    /* transform: translate(413px, -300px); */
+    transform: translate(413px, -300px);
   }
 
   .img-swiper {
