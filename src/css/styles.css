@@ -184,12 +184,9 @@ svg {
 
   .img-swiper.my-transition .swiper-slide,
   .img-swiper.my-transition .img-wrapper {
-    transition: all 1800ms ease-in-out !important;
+    transition: all 1800ms ease-in-out;
   }
 
-  /* .img-wrapper {
-    overflow: hidden;
-  } */
   .img-swiper .swiper-slide {
     width: 176px;
     height: 176px;
@@ -198,23 +195,24 @@ svg {
   }
 
   .img-swiper .swiper-slide-prev {
-    width: 280px !important;
-    height: 280px !important;
+    width: 280px;
+    height: 280px;
     overflow: hidden;
     opacity: 1;
   }
 
   .img-swiper .swiper-slide-active {
-    width: 488px !important;
-    height: 560px !important;
-    margin-right: 240px !important;
-    display: flex !important;
+    width: 488px;
+    height: 560px;
+    margin-right: 240px;
+    display: flex;
     opacity: 1;
   }
 
   .img-swiper .swiper-slide-next {
-    width: 176px !important;
-    height: 176px !important;
+    position: relative;
+    width: 176px;
+    height: 176px;
     overflow: hidden;
     opacity: 1;
   }
@@ -224,25 +222,20 @@ svg {
     width: 488px;
     height: 560px;
     overflow: hidden;
-    /* border: 1px solid red; */
     opacity: 1;
   }
 
   .swiper-slide-next .img-wrapper {
-    /* border: 1px solid red; */
     position: relative;
     overflow: hidden;
-    /* transform: translateX(256px); */
     width: 176px;
     height: 176px;
     opacity: 1;
   }
 
   .swiper-slide-prev .img-wrapper {
-    /* border: 1px solid red; */
     position: relative;
     overflow: hidden;
-    /* transform: translateX(256px); */
     width: 280px;
     height: 280px;
     opacity: 1;
