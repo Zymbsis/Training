@@ -1,5 +1,5 @@
-// import Swiper from 'swiper/bundle';
-// import 'swiper/css/bundle';
+import Swiper from 'swiper/bundle';
+import 'swiper/css/bundle';
 import 'modern-normalize';
 
 const imgSwiper = new Swiper('.opp-img-swiper', {
