@@ -100,10 +100,11 @@
   display: flex !important;
   flex-direction: column;
   justify-content: space-between;
+  transform: translate(0, 0);
 
   @media (768px<=width) {
     height: 300px;
-    transform: translate(368px, -300px);
+    transform: translate(184px, -300px);
   }
 
   @media (1440px<=width) {
@@ -152,11 +153,11 @@
 
   @media (768px<=width) {
     width: 336px;
+    margin: 0 auto;
   }
 
   @media (1440px<=width) {
     width: 384px;
-    margin: 0 auto;
   }
 }
 
