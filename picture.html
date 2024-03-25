@@ -25,20 +25,19 @@
     />
     <title>Vanilla App Template</title>
     
-    <script type="module" crossorigin src="/Training/commonHelpers.js"></script>
+    <script type="module" crossorigin src="/Training/commonHelpers2.js"></script>
     <link rel="modulepreload" crossorigin href="/Training/assets/styles-d7d653ac.js">
     <link rel="modulepreload" crossorigin href="/Training/assets/vendor-b9b1d24b.js">
     <link rel="stylesheet" href="/Training/assets/styles-b79800eb.css">
     <link rel="stylesheet" href="/Training/assets/vendor-3446bc98.css">
   </head>
   <body>
-    <a href="./picture.html">TEST</a>
     <section class="advantages-section">
       <div class="main-container">
         <div class="swiper img-swiper">
-          <ul class="swiper-wrapper">
-            <li class="swiper-slide img-swiper-slide">
-              <div class="img-wrapper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="img-wrapper" data-swiper-parallax-opacity="0">
                 <picture>
                   <source
                     srcset="/Training/assets/global-2ec7f34e.webp 1x, /Training/assets/global@2x-b38933ae.webp 2x"
@@ -73,9 +72,20 @@
                   />
                 </picture>
               </div>
-            </li>
-            <li class="swiper-slide img-swiper-slide">
-              <div class="img-wrapper">
+              <div
+                class="text-wr"
+                data-swiper-parallax-opacity="0"
+                data-swiper-parallax-x="-384"
+              >
+                <h2 class="title">Глобальна комунікація</h2>
+                <p class="text">
+                  Англійська — глобальна мова спілкування, яка допомагає у
+                  комунікації між людьми з різних лінгвістичних груп.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img-wrapper" data-swiper-parallax-opacity="0">
                 <picture>
                   <source
                     srcset="/Training/assets/career-9a6d6dfd.webp 1x, /Training/assets/career@2x-d597b9fc.webp 2x"
@@ -110,9 +120,21 @@
                   />
                 </picture>
               </div>
-            </li>
-            <li class="swiper-slide img-swiper-slide">
-              <div class="img-wrapper">
+              <div
+                class="text-wr"
+                data-swiper-parallax-opacity="0"
+                data-swiper-parallax-x="-384"
+              >
+                <h2 class="title">Кар’єрні можливості</h2>
+                <p class="text">
+                  Більшість міжнародних компаній використовують англійську як
+                  основну мову для спілкування. Тому її знання може відкрити для
+                  вас нові кар’єрні перспективи.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img-wrapper" data-swiper-parallax-opacity="0">
                 <picture>
                   <source
                     srcset="/Training/assets/education-6b1ea207.webp 1x, /Training/assets/education@2x-b0f08811.webp 2x"
@@ -147,9 +169,21 @@
                   />
                 </picture>
               </div>
-            </li>
-            <li class="swiper-slide img-swiper-slide">
-              <div class="img-wrapper">
+              <div
+                class="text-wr"
+                data-swiper-parallax-opacity="0"
+                data-swiper-parallax-x="-384"
+              >
+                <h2 class="title">Освітні можливості</h2>
+                <p class="text">
+                  Вивчення англійської дозволяє отримати доступ до більшої
+                  кількості інформації, досліджень та освітніх ресурсів, які
+                  часто доступні саме цією мовою.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img-wrapper" data-swiper-parallax-opacity="0">
                 <picture>
                   <source
                     srcset="/Training/assets/culture-1b9ed9a7.webp 1x, /Training/assets/culture@2x-a4cc2f85.webp 2x"
@@ -184,9 +218,20 @@
                   />
                 </picture>
               </div>
-            </li>
-            <li class="swiper-slide img-swiper-slide">
-              <div class="img-wrapper">
+              <div
+                class="text-wr"
+                data-swiper-parallax-opacity="0"
+                data-swiper-parallax-x="-384"
+              >
+                <h2 class="title">Культурний обмін</h2>
+                <p class="text">
+                  Володіння англійською сприяє культурному обміну та
+                  взаєморозумінню між людьми з різних куточків нашої планети.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img-wrapper" data-swiper-parallax-opacity="0">
                 <picture>
                   <source
                     srcset="/Training/assets/technology-55c36814.webp 1x, /Training/assets/technology@2x-c3826d60.webp 2x"
@@ -221,9 +266,21 @@
                   />
                 </picture>
               </div>
-            </li>
-            <li class="swiper-slide img-swiper-slide">
-              <div class="img-wrapper">
+              <div
+                class="text-wr"
+                data-swiper-parallax-opacity="0"
+                data-swiper-parallax-x="-384"
+              >
+                <h2 class="title">Технологічні досягнення</h2>
+                <p class="text">
+                  Англійська також є домінуючою в галузі технологій та
+                  Інтернету. Її знання важливе у відслідковуванні технологічних
+                  інновацій та активній участі в них.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img-wrapper" data-swiper-parallax-opacity="0">
                 <picture>
                   <source
                     srcset="/Training/assets/travel-b2f57b94.webp 1x, /Training/assets/travel@2x-20ef5069.webp 2x"
@@ -258,83 +315,8 @@
                   />
                 </picture>
               </div>
-            </li>
-          </ul>
-        </div>
-
-        <div class="swiper text-swiper">
-          <div class="swiper-wrapper swiper-text-wrapper">
-            <div class="swiper-slide">
               <div
-                class="text-wrapper"
-                data-swiper-parallax-opacity="0"
-                data-swiper-parallax-x="-384"
-              >
-                <h2 class="title">Глобальна комунікація</h2>
-                <p class="text">
-                  Англійська — глобальна мова спілкування, яка допомагає у
-                  комунікації між людьми з різних лінгвістичних груп.
-                </p>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div
-                class="text-wrapper"
-                data-swiper-parallax-opacity="0"
-                data-swiper-parallax-x="-384"
-              >
-                <h2 class="title">Кар’єрні можливості</h2>
-                <p class="text">
-                  Більшість міжнародних компаній використовують англійську як
-                  основну мову для спілкування. Тому її знання може відкрити для
-                  вас нові кар’єрні перспективи.
-                </p>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div
-                class="text-wrapper"
-                data-swiper-parallax-opacity="0"
-                data-swiper-parallax-x="-384"
-              >
-                <h2 class="title">Освітні можливості</h2>
-                <p class="text">
-                  Вивчення англійської дозволяє отримати доступ до більшої
-                  кількості інформації, досліджень та освітніх ресурсів, які
-                  часто доступні саме цією мовою.
-                </p>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div
-                class="text-wrapper"
-                data-swiper-parallax-opacity="0"
-                data-swiper-parallax-x="-384"
-              >
-                <h2 class="title">Культурний обмін</h2>
-                <p class="text">
-                  Володіння англійською сприяє культурному обміну та
-                  взаєморозумінню між людьми з різних куточків нашої планети.
-                </p>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div
-                class="text-wrapper"
-                data-swiper-parallax-opacity="0"
-                data-swiper-parallax-x="-384"
-              >
-                <h2 class="title">Технологічні досягнення</h2>
-                <p class="text">
-                  Англійська також є домінуючою в галузі технологій та
-                  Інтернету. Її знання важливе у відслідковуванні технологічних
-                  інновацій та активній участі в них.
-                </p>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div
-                class="text-wrapper"
+                class="text-wr"
                 data-swiper-parallax-opacity="0"
                 data-swiper-parallax-x="-384"
               >
@@ -347,69 +329,39 @@
               </div>
             </div>
           </div>
-          <div class="swiper-button-wrapper">
-            <button class="swiper-button prev-button" type="button">
-              <svg
-                width="24"
-                height="14"
-                viewBox="0 0 24 14"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M8 0C8 0.742 7.267 1.85 6.525 2.78C5.571 3.98 4.431 5.027 3.124 5.826C2.144 6.425 0.956 7 0 7M0 7C0.956 7 2.145 7.575 3.124 8.174C4.431 8.974 5.571 10.021 6.525 11.219C7.267 12.15 8 13.26 8 14M0 7H24"
-                />
-              </svg>
-            </button>
-            <button class="swiper-button next-button" type="button">
-              <svg
-                width="24"
-                height="14"
-                viewBox="0 0 24 14"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M16 0C16 0.742 16.733 1.85 17.475 2.78C18.429 3.98 19.569 5.027 20.876 5.826C21.856 6.425 23.044 7 24 7M24 7C23.044 7 21.855 7.575 20.876 8.174C19.569 8.974 18.429 10.021 17.475 11.219C16.733 12.15 16 13.26 16 14M24 7H0"
-                />
-              </svg>
-            </button>
-          </div>
+        </div>
+
+        <div class="swiper-button-wrapper">
+          <button class="swiper-button prev-button" type="button">
+            <svg
+              width="24"
+              height="14"
+              viewBox="0 0 24 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8 0C8 0.742 7.267 1.85 6.525 2.78C5.571 3.98 4.431 5.027 3.124 5.826C2.144 6.425 0.956 7 0 7M0 7C0.956 7 2.145 7.575 3.124 8.174C4.431 8.974 5.571 10.021 6.525 11.219C7.267 12.15 8 13.26 8 14M0 7H24"
+              />
+            </svg>
+          </button>
+          <button class="swiper-button next-button" type="button">
+            <svg
+              width="24"
+              height="14"
+              viewBox="0 0 24 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16 0C16 0.742 16.733 1.85 17.475 2.78C18.429 3.98 19.569 5.027 20.876 5.826C21.856 6.425 23.044 7 24 7M24 7C23.044 7 21.855 7.575 20.876 8.174C19.569 8.974 18.429 10.021 17.475 11.219C16.733 12.15 16 13.26 16 14M24 7H0"
+              />
+            </svg>
+          </button>
         </div>
       </div>
     </section>
-    <!-- <script type="module" src="./main.js"></script> -->
+    <!-- <script type="module" src="./test.js"></script> -->
     
   </body>
 </html>
-
-<!-- <div class="swiper-button-wrapper">
-            <button class="swiper-button prev-button" type="button">
-              <svg
-                width="24"
-                height="14"
-                viewBox="0 0 24 14"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M8 0C8 0.742 7.267 1.85 6.525 2.78C5.571 3.98 4.431 5.027 3.124 5.826C2.144 6.425 0.956 7 0 7M0 7C0.956 7 2.145 7.575 3.124 8.174C4.431 8.974 5.571 10.021 6.525 11.219C7.267 12.15 8 13.26 8 14M0 7H24"
-                  stroke="#292929"
-                />
-              </svg>
-            </button>
-            <button class="swiper-button next-button" type="button">
-              <svg
-                width="24"
-                height="14"
-                viewBox="0 0 24 14"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M16 0C16 0.742 16.733 1.85 17.475 2.78C18.429 3.98 19.569 5.027 20.876 5.826C21.856 6.425 23.044 7 24 7M24 7C23.044 7 21.855 7.575 20.876 8.174C19.569 8.974 18.429 10.021 17.475 11.219C16.733 12.15 16 13.26 16 14M24 7H0"
-                  stroke="#292929"
-                />
-              </svg>
-            </button>
-          </div> -->
