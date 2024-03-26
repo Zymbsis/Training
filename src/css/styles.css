@@ -2,6 +2,7 @@
 @import url(./reset.css);
 
 /* ============= IMG_SWIPER  ================ */
+/* ============= IMG_SWIPER  ================ */
 .opp-img-swiper {
   height: 380px;
   margin-bottom: 32px;
@@ -32,7 +33,7 @@
   @media (1440px<=width) {
     width: 176px;
     height: 176px;
-    transform: translateX(230px);
+    transform: translateX(250px);
   }
 }
 
@@ -42,13 +43,13 @@
   opacity: 1;
 
   @media (768px<=width) {
-    transform: translateX(0);
+    transform: translateX(-184px);
   }
 
   @media (1440px<=width) {
     width: 488px;
     height: 560px;
-    transform: translateX(-93px);
+    transform: translateX(-92px);
   }
 }
 
@@ -56,7 +57,7 @@
   @media (768px<=width) {
     width: 80px;
     height: 80px;
-    transform: translateX(256px);
+    transform: translateX(70px);
     opacity: 1;
   }
 
@@ -79,6 +80,7 @@
     width: 280px;
     height: 280px;
     opacity: 1;
+    transform: translateX(0);
   }
 }
 
@@ -98,9 +100,9 @@
 .opp-text-swiper {
   height: 272px;
   display: flex !important;
+  /*Якщо swiper буде підключений через npm, цей flex має бути !important*/
   flex-direction: column;
   justify-content: space-between;
-  transform: translate(0, 0);
 
   @media (768px<=width) {
     height: 300px;
@@ -112,8 +114,10 @@
   }
 }
 
+.opp-text-wrapper {}
+
 .opp-title {
-  max-width: 250px;
+  max-width: 175px;
   margin-bottom: 24px;
   font-weight: 600;
   font-size: 24px;
