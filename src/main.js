@@ -2,35 +2,8 @@ import Swiper from 'swiper/bundle';
 import 'swiper/css/bundle';
 import 'modern-normalize';
 
-const imgSwiper = new Swiper('.opp-img-swiper', {
-  navigation: { prevEl: '.opp-button-prev', nextEl: '.opp-button-next' },
-  loop: true,
-  speed: 1800,
-  slidesPerView: 1,
-  centeredSlides: true,
-  initialSlide: 0,
-  spaceBetween: 20,
-  breakpoints: {
-    704: {
-      slidesPerView: 2,
-      spaceBetween: 32,
-    },
-    1440: {
-      slidesPerView: 3,
-      spaceBetween: 0,
-    },
-  },
-  on: {
-    slideChangeTransitionStart: function () {
-      document
-        .querySelectorAll('.opp-img-wrapper')
-        .forEach(item => item.classList.add('img-swiper-transition'));
-    },
-  },
-});
-
-const textSwiper = new Swiper('.opp-text-swiper', {
-  navigation: { prevEl: '.opp-button-prev', nextEl: '.opp-button-next' },
+const oppTextSwiper = new Swiper('.opp-text-swiper', {
+  allowTouchMove: false,
   loop: true,
   speed: 1800,
   slidesPerView: 1,
@@ -56,6 +29,36 @@ const textSwiper = new Swiper('.opp-text-swiper', {
     1440: {
       slidesPerView: 3,
       spaceBetween: 32,
+    },
+  },
+});
+
+const oppImgSwiper = new Swiper('.opp-img-swiper', {
+  navigation: { prevEl: '.opp-button-prev', nextEl: '.opp-button-next' },
+  loop: true,
+  speed: 1800,
+  slidesPerView: 1,
+  centeredSlides: true,
+  initialSlide: 0,
+  spaceBetween: 20,
+  breakpoints: {
+    704: {
+      slidesPerView: 2,
+      spaceBetween: 32,
+    },
+    1440: {
+      slidesPerView: 3,
+      spaceBetween: 0,
+    },
+  },
+  on: {
+    slideChangeTransitionStart: function () {
+      document
+        .querySelectorAll('.opp-img-wrapper')
+        .forEach(item => item.classList.add('img-swiper-transition'));
+    },
+    slideChange: function () {
+      oppTextSwiper.slideToLoop(this.realIndex, 1800);
     },
   },
 });
