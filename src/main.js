@@ -42,7 +42,7 @@ const oppImgSwiper = new Swiper('.opp-img-swiper', {
   initialSlide: 0,
   spaceBetween: 20,
   breakpoints: {
-    704: {
+    768: {
       slidesPerView: 2,
       spaceBetween: 32,
     },
