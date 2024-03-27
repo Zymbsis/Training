@@ -6,7 +6,7 @@ const oppTextSwiper = new Swiper('.opp-text-swiper', {
   allowTouchMove: false,
   loop: true,
   speed: 1800,
-  slidesPerView: 1,
+  slidesPerView: 2,
   centeredSlides: true,
   initialSlide: 0,
   spaceBetween: 20,
