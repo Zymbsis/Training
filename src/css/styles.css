@@ -3,6 +3,18 @@
 
 /* ============= IMG_SWIPER  ================ */
 /* ============= IMG_SWIPER  ================ */
+.opp-section {
+  height: 812px;
+
+  @media (768px<=width) {
+    height: 600px;
+  }
+
+  @media (1440px<=width) {
+    height: 840px;
+  }
+}
+
 .opp-img-swiper {
   height: 380px;
   margin-bottom: 32px;
